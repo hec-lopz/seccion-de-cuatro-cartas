@@ -1,0 +1,26 @@
+{
+  "name": "seccion-de-cuatro-cartas",
+  "version": "1.0.0",
+  "description": "![Vista previa del diseño para el desafío de la sección de cuatro cartas](./design/desktop-preview.jpg)",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hec-lopz/seccion-de-cuatro-cartas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hec-lopz/seccion-de-cuatro-cartas/issues"
+  },
+  "homepage": "https://github.com/hec-lopz/seccion-de-cuatro-cartas#readme"
+}

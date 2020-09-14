@@ -1,0 +1,35 @@
+@media screen and (min-width: 1024px){
+    body{
+        display: flex;
+        align-items: center;
+    }
+    .wrapper{
+        padding: 0;
+    }
+    .hero{
+        font-size: 1.8rem;
+    }
+    .hero p{
+        font-size: .6em;
+        line-height: 1.7em;
+    }
+
+    .card-container{
+        grid-template-columns: repeat(3, 300px);
+    }
+    .card-container{
+        grid-template-areas:"start middle end"
+                            "start middle end";
+    }
+
+    .card-container__card:nth-child(1){
+        grid-area: start;
+        align-self: center;
+    }
+    .card-container__card:nth-child(4){
+        grid-area: end;
+        align-self: center;
+    }
+
+
+}
